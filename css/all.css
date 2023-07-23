@@ -41,9 +41,8 @@ img {
 }
 .introduction .text {
   width: 50%;
-  font-weight: 400;
   font-size: 32px;
-  padding: 48px;
+  padding: 48px 0;
   margin-left: auto;
 }
 
@@ -53,16 +52,23 @@ img {
   margin: 80px 0px 160px 0px;
 }
 .content .item {
-  margin-bottom: 32px;
+  margin-bottom: 40px;
 }
 .content h3 {
   color: #AE0000;
   font-size: 40px;
   margin-bottom: 16px;
   border-bottom: 3px solid #AE0000;
+  margin-bottom: 16px;
 }
-.content li {
+.content .mb-8 {
+  margin-bottom: 8px;
+}
+.content .mb-12 {
   margin-bottom: 12px;
+}
+.content .mb-16 {
+  margin-bottom: 16px;
 }
 .content a {
   color: #000;
